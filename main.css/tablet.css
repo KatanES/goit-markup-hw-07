@@ -26,8 +26,6 @@
 
   .logo {
     display: flex;
-    margin-top: 24px;
-    margin-right: 16px;
   }
 
   .header-link {
@@ -60,8 +58,7 @@
 
   .site-nav {
     display: flex;
-    margin-left: 76px;
-    margin-right: auto;
+    margin-left: auto;
   }
 
   .mobile-social-list {
