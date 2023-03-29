@@ -5,9 +5,7 @@
 
   .header-nav-wrap {
     background-color: transparent;
-    max-width: unset;
-    height: unset;
-    position: static;
+    width: 100%;
   }
 
   .header-btn-mobile {
@@ -23,19 +21,9 @@
     align-items: center;
   }
 
-  .site-nav {
-    display: flex;
-    margin-left: 76px;
-    margin-right: auto;
-  }
-
-  .site-nav .item:not(:last-child) {
-    margin-right: 40px;
-  }
-
-  .site-nav .item:last-child {
+  /* .site-nav .item:last-child {
     margin-right: 332px;
-  }
+  } */
 
   .header-link {
     display: block;

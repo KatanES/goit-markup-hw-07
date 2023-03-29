@@ -14,7 +14,7 @@
 
 .header-nav-wrap {
   background-color: white;
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
   position: fixed;
   right: 0;

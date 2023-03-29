@@ -5,14 +5,9 @@
 
   .header-nav-wrap {
     background-color: transparent;
-    max-width: unset;
-    height: unset;
-    position: static;
-    padding: 0;
 
+    padding: 0;
     display: flex;
-    margin-left: 76px;
-    margin-right: auto;
     align-items: center;
   }
 
@@ -126,6 +121,11 @@
     max-width: 552px;
   }
 
+  .team-text {
+    margin: 0;
+    padding: 32px 16px;
+  }
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +188,14 @@
   }
 
   .footer-subscribe-btn {
+    display: flex;
     margin-left: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-icon-footer {
+    margin-left: 16px;
   }
 
   .filters {
