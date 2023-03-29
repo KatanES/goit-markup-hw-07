@@ -19,6 +19,7 @@
 
   .site-nav {
     margin-bottom: 284px;
+    display: inline-block;
   }
 
   .header-nav-wrap {
