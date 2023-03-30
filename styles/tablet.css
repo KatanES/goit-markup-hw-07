@@ -54,9 +54,10 @@
   }
 
   .contacts {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   .contacts-nav {
@@ -82,7 +83,7 @@
 
   .site-nav {
     display: flex;
-    margin-left: auto;
+    margin-left: 76px;
   }
 
   .mobile-social-list {
@@ -91,6 +92,11 @@
 
   .contacts a {
     margin: 0;
+  }
+
+  .mobile {
+    font-size: 12px;
+    font-weight: 400;
   }
 
   /* HERO */
@@ -153,7 +159,7 @@
   }
 
   .team-container {
-    max-width: 768px;
+    max-width: 660px;
   }
 
   .team-text {
@@ -164,8 +170,6 @@
   .team-list {
     display: flex;
     flex-wrap: wrap;
-    /* padding-left: 108px;
-    padding-right: 108px; */
   }
 
   .team-list .item {

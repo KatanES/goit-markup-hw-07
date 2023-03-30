@@ -8,6 +8,10 @@
       transform: translateX(0);
     }
 
+    .main-nav {
+      padding: 24px 16px;
+    }
+
     .site-nav {
       margin-bottom: 284px;
     }
@@ -80,6 +84,15 @@
   .mobile-social-list {
     justify-content: flex-start;
     gap: 56px;
+  }
+
+  .mobile {
+    font-weight: 600;
+    font-size: 36px;
+  }
+
+  .active {
+    color: var(--primary-active-color);
   }
 
   /* HERO */
@@ -180,7 +193,7 @@
   }
 
   .footer-social-list {
-    margin-left: 110px;
+    margin-left: 80px;
     margin-bottom: 72px;
   }
 
@@ -190,7 +203,14 @@
   }
 
   .footer-subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 110px;
+  }
+
+  .btn-icon-footer {
+    margin-left: 16px;
   }
 
   .filters {
