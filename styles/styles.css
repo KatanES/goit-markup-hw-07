@@ -189,7 +189,9 @@
 }
 
 .hero-title {
-  margin-top: 0 auto;
+  /* margin-top: 0 auto; */
+  margin-bottom: 72px;
+
   font-weight: 700;
   line-height: 1;
 }
@@ -525,7 +527,7 @@
 
 .btn-icon-footer {
   fill: #ffffff;
-  margin-left: 5px;
+  margin-left: 16px;
 }
 
 /* portfolio page */
