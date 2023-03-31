@@ -213,6 +213,8 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .customer {
@@ -273,5 +275,10 @@
 
   .examples-list .item {
     width: calc((100% - 54px) / 3);
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 586px;
   }
 }

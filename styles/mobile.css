@@ -136,6 +136,10 @@
     padding-top: 96px;
   }
 
+  .features-list p {
+    font-weight: 500;
+  }
+
   .features-list {
     margin-left: 16px;
   }
@@ -175,7 +179,7 @@
 
   .customer {
     width: calc((100% - 24px) / 2);
-    margin-bottom: 72px;
+    margin-bottom: 48px;
   }
 
   .works {
@@ -227,5 +231,10 @@
 
   .examples-list .item {
     margin-bottom: 48px;
+  }
+
+  .modal {
+    width: 392px;
+    min-height: 586px;
   }
 }

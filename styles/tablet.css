@@ -134,6 +134,7 @@
     margin-bottom: 40px;
     line-height: 60px;
     font-size: 56px;
+    font-weight: 700;
   }
 
   .features {
@@ -145,8 +146,12 @@
     flex-wrap: wrap;
   }
 
+  .features-list p {
+    font-weight: 500;
+  }
+
   .features-list .list-item {
-    padding-bottom: 72px;
+    padding-bottom: 48px;
     width: calc((100% - 24px) / 2);
   }
 
@@ -173,6 +178,8 @@
   }
 
   .team-list .item {
+    margin-top: 0;
+    margin-bottom: 0;
     width: calc((100% - 24px) / 2);
   }
   .customers-list {
@@ -257,5 +264,10 @@
 
   .examples-list .item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 586px;
   }
 }
