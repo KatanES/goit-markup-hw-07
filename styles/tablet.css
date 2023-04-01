@@ -165,7 +165,7 @@
   }
 
   .team-container {
-    max-width: 660px;
+    padding: 0 108px;
   }
 
   .team-text {
@@ -183,15 +183,19 @@
     margin-bottom: 0;
     width: calc((100% - 24px) / 2);
   }
+
+  .customers .container {
+    padding: 0 93px;
+  }
+
   .customers-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* padding-left: 108px;
-    padding-right: 108px; */
-    margin-left: 56px;
-    margin-right: 56px;
+
+    /* margin-left: 56px;
+    margin-right: 56px; */
   }
   .customer {
     width: calc((100% - 48px) / 3);
@@ -206,11 +210,7 @@
   .footer {
     display: flex;
     flex-wrap: wrap;
-
-    margin-left: 108px;
-    /* margin-right: 108px; */
-
-    /* padding-left: 108px; */
+    padding: 0 93px;
   }
 
   .footer-logo {
