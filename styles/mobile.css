@@ -65,6 +65,10 @@
     margin-bottom: 40px;
   }
 
+  .header-link:last-child {
+    margin-bottom: 0px;
+  }
+
   .contacts {
     margin-bottom: 48px;
     margin-top: auto;

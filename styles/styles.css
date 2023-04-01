@@ -30,7 +30,7 @@
   }
 
   .site-nav {
-    margin-bottom: 284px;
+    /* margin-bottom: 284px; */
     display: inline-block;
   }
 
@@ -127,6 +127,10 @@
   margin-bottom: 40px;
 }
 
+.header-link:last-child {
+  margin-bottom: 0px;
+}
+
 .header-link:is(:hover, :focus) {
   color: var(--pressed-state-color);
 }
@@ -170,7 +174,7 @@
 .mobile-social-list {
   justify-content: flex-start;
   gap: 0;
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 /* hero section */
@@ -541,6 +545,7 @@
 
   width: 165px;
   height: 40px;
+  margin: 0 auto;
   /* margin-left: 24px; */
 
   border: 1px;
@@ -686,6 +691,7 @@
 }
 
 .modal-close {
+  display: flex;
   width: 24px;
   height: 24px;
   background-color: #e7e9fc;
