@@ -139,9 +139,9 @@
     flex-wrap: nowrap;
   }
 
-  .features-list .list-item {
+  /* .features-list .list-item {
     margin-left: 24px;
-  }
+  } */
 
   .features-list p {
     font-weight: 400;
