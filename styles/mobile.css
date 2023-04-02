@@ -12,9 +12,9 @@
       padding: 24px 16px;
     }
 
-    .site-nav {
+    /* .site-nav {
       margin-bottom: 284px;
-    }
+    } */
 
     .header-nav-wrap {
       background-color: white;
@@ -65,9 +65,9 @@
     margin-bottom: 40px;
   }
 
-  .header-link:last-child {
+  /* .header-link:last-child {
     margin-bottom: 0px;
-  }
+  } */
 
   .contacts {
     margin-bottom: 48px;

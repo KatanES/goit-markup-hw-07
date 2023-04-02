@@ -127,9 +127,9 @@
   margin-bottom: 40px;
 }
 
-.header-link:last-child {
+/* .header-link:last-child {
   margin-bottom: 0px;
-}
+} */
 
 .header-link:is(:hover, :focus) {
   color: var(--pressed-state-color);
